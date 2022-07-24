@@ -1,0 +1,156 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 3rem;
+  width: 8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  padding-right: 3rem;
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem 0;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  white-space: nowrap;
+  font-size: small;
+}
+
+.nav-link:hover {
+  color: #5fd068 !important;
+}
+
+.pent {
+  width: 60rem;
+  padding-bottom: 3rem;
+}
+
+.pent-head {
+  font-size: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.active {
+  color: #6dab3c !important;
+}
+
+.calc-box {
+  background-color: white;
+  padding: 1.5rem 1.5rem;
+}
+
+.calculator {
+  width: 50rem;
+  font-size: 0.9rem;
+}
+
+.calculate {
+  background-color: #6dab3c !important;
+  color: white;
+}
+
+.table {
+  font-size: 0.9rem;
+  width: 55rem;
+  margin: 0 auto;
+}
+
+.results {
+  background-color: #f1f2f2;
+  margin-top: 3.5rem;
+  padding: 1.5rem;
+}
+
+.summary {
+  color: rgb(116, 116, 116);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.inflation-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inflation-figure {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.growth-img {
+  float: left;
+  width: 50px;
+  padding: 7px 7px 0 0;
+}
+
+.invest-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* CSS */
+.invest-btn {
+  align-items: center;
+  appearance: none;
+  background-color: #6dab3c;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+}
+
+.t_and_c {
+  padding-top: 6rem;
+}

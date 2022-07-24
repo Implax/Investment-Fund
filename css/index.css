@@ -1,0 +1,86 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+.logo{
+    display: inline-block;
+    margin-left: 3rem;
+    width: 8rem;
+}
+
+.title{
+    padding-right: 3rem;
+    font-weight: 600;
+}
+
+.navbar{
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.nav-item{
+    padding-right: 1rem;
+    white-space: nowrap;
+    font-size: small;
+}
+
+.nav-link:hover{
+    color: #5FD068 !important; 
+}
+
+.blurb{
+    height: 90vh;
+    background-color: #f5f5f5;
+
+}
+
+.active{
+    color: #6dab3c !important;
+}
+
+.blurb1{
+    margin: auto auto;
+    padding-left: 5rem;
+}
+
+.blurb-finance{
+    color: #6dab3c
+}
+
+.blurb2{
+    display: flex;
+    justify-content: center;
+}
+
+.blurb-image{
+    max-width: 30rem;
+    margin: 0 auto !important;
+}
+
+.blurb-buttons{
+    margin-top: 2rem;
+}
+
+.blurb-btn1{
+    background-color: black;
+    color: white;
+    font-size: 12px !important;
+    font-weight: 400;
+
+
+}
+
+.blurb-btn2{
+    background-color: #6dab3c;
+    color: white;
+    font-size: 12px !important;
+    font-weight: 400;
+
+}
